@@ -24,7 +24,7 @@ public enum ContainerEntryType {
     case unknown
 
     /// This initalizer's semantics assume conversion from UNIX type, which, by definition, doesn't have `unknown` type.
-    init?(_ unixType: UInt32) {
+    internal init?(_ unixType: UInt32) {
         switch unixType {
         case 0o010000:
             self = .fifo

@@ -1,6 +1,6 @@
 import Foundation
 
-struct TarExtendedHeader {
+internal struct TarExtendedHeader {
 
     var unknownRecords = [String: String]()
 
@@ -22,7 +22,7 @@ struct TarExtendedHeader {
     var charset: String?
     var comment: String?
 
-    init(_ data: Data) throws {
+    internal init(_ data: Data) throws {
         // Split header data into entries with "\n" (0x0A) character as a separator.
         let entriesData = data.split(separator: 0x0A)
 
@@ -78,7 +78,7 @@ struct TarExtendedHeader {
         self.unknownRecords = unknownRecords
     }
 
-    init(_ info: TarEntryInfo) {
+    internal init(_ info: TarEntryInfo) {
         let maxOctalLengthEight = (1 << 24) - 1
         let maxOctalLengthTwelve = (1 << 36) - 1
 

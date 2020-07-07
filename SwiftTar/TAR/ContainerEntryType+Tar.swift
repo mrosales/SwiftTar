@@ -1,8 +1,8 @@
 import Foundation
 
-extension ContainerEntryType {
+internal extension ContainerEntryType {
 
-    init(_ fileTypeIndicator: UInt8) {
+    internal init(_ fileTypeIndicator: UInt8) {
         switch fileTypeIndicator {
         case 0, 48: // "0"
             self = .regular

@@ -1,6 +1,6 @@
 import Foundation
 
-extension Data {
+internal extension Data {
 
     @inlinable @inline(__always)
     func toU16() -> UInt16 {

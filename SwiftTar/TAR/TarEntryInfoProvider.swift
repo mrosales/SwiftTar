@@ -2,7 +2,7 @@ import Foundation
 
 // While it is tempting to make Provider conform to `IteratorProtocol` and `Sequence` protocols, it is in fact
 // impossible to do so, since `TarEntryInfo.init(...)` is throwing and `IteratorProtocol.next()` cannot be throwing.
-struct TarEntryInfoProvider {
+internal struct TarEntryInfoProvider {
 
     private let byteReader: LittleEndianByteReader
     private var lastGlobalExtendedHeader: TarExtendedHeader?
@@ -10,7 +10,7 @@ struct TarEntryInfoProvider {
     private var longLinkName: String?
     private var longName: String?
 
-    init(_ data: Data) {
+    internal init(_ data: Data) {
         self.byteReader = LittleEndianByteReader(data: data)
     }
 

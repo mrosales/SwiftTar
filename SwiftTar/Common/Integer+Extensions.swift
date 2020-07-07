@@ -1,6 +1,6 @@
 import Foundation
 
-extension UnsignedInteger {
+internal extension UnsignedInteger {
 
     @inlinable @inline(__always)
     func toInt() -> Int {
@@ -8,7 +8,7 @@ extension UnsignedInteger {
     }
 }
 
-extension Int {
+internal extension Int {
 
     @inlinable @inline(__always)
     func roundTo512() -> Int {

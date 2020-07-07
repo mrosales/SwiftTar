@@ -71,6 +71,7 @@
 		982C409924B4126900A132E0 /* ByteReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ByteReader.swift; sourceTree = "<group>"; };
 		982C40A724B414DD00A132E0 /* file_directory_symlink.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = file_directory_symlink.tar; sourceTree = "<group>"; };
 		982C40A924B41DB700A132E0 /* CompressionMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompressionMethod.swift; sourceTree = "<group>"; };
+		982C40AB24B41FB400A132E0 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +99,7 @@
 				982C404724B4105F00A132E0 /* SwiftTar */,
 				982C405224B4105F00A132E0 /* SwiftTarTests */,
 				982C404624B4105F00A132E0 /* Products */,
+				982C40AB24B41FB400A132E0 /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
@@ -471,6 +473,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mrosales.SwiftTar;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -497,6 +500,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mrosales.SwiftTar;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
