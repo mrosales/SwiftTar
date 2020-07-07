@@ -1,7 +1,3 @@
-//
-// ByteReader+Tar.swift
-//
-
 import Foundation
 
 extension LittleEndianByteReader {

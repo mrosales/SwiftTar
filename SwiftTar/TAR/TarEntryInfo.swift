@@ -1,8 +1,3 @@
-// Copyright (c) 2020 Timofey Solomko
-// Licensed under MIT License
-//
-// See LICENSE for license information
-
 import Foundation
 
 /// Provides access to information about an entry from the TAR container.
@@ -268,7 +263,7 @@ public struct TarEntryInfo: ContainerEntryInfo {
         // uses this place for storing atime/ctime and fields related to sparse-files. In practice, these fields are
         // rarely used by GNU tar and only present if "incremental backups" options were used. Thus, GNU format TAR
         // container can often be incorrectly considered as having prefix field containing only NULLs.
-        let magic = byteReader.uint64()
+        let magic = byteReader.uint64(fromBytes: 8)
 
         var gnuAtime: Int?
         var gnuCtime: Int?

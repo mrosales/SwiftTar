@@ -1,8 +1,3 @@
-// Copyright (c) 2020 Timofey Solomko
-// Licensed under MIT License
-//
-// See LICENSE for license information
-
 import Foundation
 
 /// A type that represents an entry from the container with its data and information.

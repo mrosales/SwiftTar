@@ -1,7 +1,3 @@
-//
-// ContainerEntryType+Tar.swift
-//
-
 import Foundation
 
 extension ContainerEntryType {

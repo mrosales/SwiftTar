@@ -20,26 +20,17 @@
 		982C406F24B410BA00A132E0 /* TarEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C406624B410BA00A132E0 /* TarEntry.swift */; };
 		982C407024B410BA00A132E0 /* TarCreateError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C406724B410BA00A132E0 /* TarCreateError.swift */; };
 		982C407A24B411F400A132E0 /* ContainerEntryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C407424B411F400A132E0 /* ContainerEntryInfo.swift */; };
-		982C407B24B411F400A132E0 /* DosAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C407524B411F400A132E0 /* DosAttributes.swift */; };
 		982C407C24B411F400A132E0 /* Permissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C407624B411F400A132E0 /* Permissions.swift */; };
 		982C407D24B411F400A132E0 /* ContainerEntryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C407724B411F400A132E0 /* ContainerEntryType.swift */; };
 		982C407E24B411F400A132E0 /* ContainerEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C407824B411F400A132E0 /* ContainerEntry.swift */; };
 		982C407F24B411F400A132E0 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C407924B411F400A132E0 /* Container.swift */; };
-		982C408824B4120C00A132E0 /* DecompressionAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C408024B4120C00A132E0 /* DecompressionAlgorithm.swift */; };
-		982C408924B4120C00A132E0 /* CompressionAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C408124B4120C00A132E0 /* CompressionAlgorithm.swift */; };
-		982C408A24B4120C00A132E0 /* CommonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C408224B4120C00A132E0 /* CommonExtensions.swift */; };
+		982C408A24B4120C00A132E0 /* Integer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C408224B4120C00A132E0 /* Integer+Extensions.swift */; };
 		982C408B24B4120C00A132E0 /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C408324B4120C00A132E0 /* Archive.swift */; };
-		982C408C24B4120C00A132E0 /* DeltaFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C408424B4120C00A132E0 /* DeltaFilter.swift */; };
-		982C408D24B4120C00A132E0 /* CheckSums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C408524B4120C00A132E0 /* CheckSums.swift */; };
-		982C408E24B4120C00A132E0 /* CompressionMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C408624B4120C00A132E0 /* CompressionMethod.swift */; };
-		982C408F24B4120C00A132E0 /* FileSystemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C408724B4120C00A132E0 /* FileSystemType.swift */; };
-		982C409D24B4126900A132E0 /* BitWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C409224B4126900A132E0 /* BitWriter.swift */; };
 		982C409F24B4126900A132E0 /* LittleEndianByteReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C409424B4126900A132E0 /* LittleEndianByteReader.swift */; };
 		982C40A124B4126900A132E0 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C409624B4126900A132E0 /* Data+Extensions.swift */; };
-		982C40A324B4126900A132E0 /* SignedNumberRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C409824B4126900A132E0 /* SignedNumberRepresentation.swift */; };
 		982C40A424B4126900A132E0 /* ByteReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C409924B4126900A132E0 /* ByteReader.swift */; };
-		982C40A624B4126900A132E0 /* BitReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C409B24B4126900A132E0 /* BitReader.swift */; };
 		982C40A824B414DD00A132E0 /* file_directory_symlink.tar in Resources */ = {isa = PBXBuildFile; fileRef = 982C40A724B414DD00A132E0 /* file_directory_symlink.tar */; };
+		982C40AA24B41DB700A132E0 /* CompressionMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C40A924B41DB700A132E0 /* CompressionMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,26 +60,17 @@
 		982C406624B410BA00A132E0 /* TarEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TarEntry.swift; sourceTree = "<group>"; };
 		982C406724B410BA00A132E0 /* TarCreateError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TarCreateError.swift; sourceTree = "<group>"; };
 		982C407424B411F400A132E0 /* ContainerEntryInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerEntryInfo.swift; sourceTree = "<group>"; };
-		982C407524B411F400A132E0 /* DosAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DosAttributes.swift; sourceTree = "<group>"; };
 		982C407624B411F400A132E0 /* Permissions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Permissions.swift; sourceTree = "<group>"; };
 		982C407724B411F400A132E0 /* ContainerEntryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerEntryType.swift; sourceTree = "<group>"; };
 		982C407824B411F400A132E0 /* ContainerEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerEntry.swift; sourceTree = "<group>"; };
 		982C407924B411F400A132E0 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
-		982C408024B4120C00A132E0 /* DecompressionAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecompressionAlgorithm.swift; sourceTree = "<group>"; };
-		982C408124B4120C00A132E0 /* CompressionAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompressionAlgorithm.swift; sourceTree = "<group>"; };
-		982C408224B4120C00A132E0 /* CommonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonExtensions.swift; sourceTree = "<group>"; };
+		982C408224B4120C00A132E0 /* Integer+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Integer+Extensions.swift"; sourceTree = "<group>"; };
 		982C408324B4120C00A132E0 /* Archive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Archive.swift; sourceTree = "<group>"; };
-		982C408424B4120C00A132E0 /* DeltaFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeltaFilter.swift; sourceTree = "<group>"; };
-		982C408524B4120C00A132E0 /* CheckSums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckSums.swift; sourceTree = "<group>"; };
-		982C408624B4120C00A132E0 /* CompressionMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompressionMethod.swift; sourceTree = "<group>"; };
-		982C408724B4120C00A132E0 /* FileSystemType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemType.swift; sourceTree = "<group>"; };
-		982C409224B4126900A132E0 /* BitWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitWriter.swift; sourceTree = "<group>"; };
 		982C409424B4126900A132E0 /* LittleEndianByteReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleEndianByteReader.swift; sourceTree = "<group>"; };
 		982C409624B4126900A132E0 /* Data+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
-		982C409824B4126900A132E0 /* SignedNumberRepresentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignedNumberRepresentation.swift; sourceTree = "<group>"; };
 		982C409924B4126900A132E0 /* ByteReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ByteReader.swift; sourceTree = "<group>"; };
-		982C409B24B4126900A132E0 /* BitReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitReader.swift; sourceTree = "<group>"; };
 		982C40A724B414DD00A132E0 /* file_directory_symlink.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = file_directory_symlink.tar; sourceTree = "<group>"; };
+		982C40A924B41DB700A132E0 /* CompressionMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompressionMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,13 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				982C408324B4120C00A132E0 /* Archive.swift */,
-				982C408524B4120C00A132E0 /* CheckSums.swift */,
-				982C408124B4120C00A132E0 /* CompressionAlgorithm.swift */,
-				982C408624B4120C00A132E0 /* CompressionMethod.swift */,
-				982C408024B4120C00A132E0 /* DecompressionAlgorithm.swift */,
-				982C408424B4120C00A132E0 /* DeltaFilter.swift */,
-				982C408224B4120C00A132E0 /* CommonExtensions.swift */,
-				982C408724B4120C00A132E0 /* FileSystemType.swift */,
+				982C408224B4120C00A132E0 /* Integer+Extensions.swift */,
+				982C40A924B41DB700A132E0 /* CompressionMethod.swift */,
 				982C407324B411E900A132E0 /* Container */,
 			);
 			path = Common;
@@ -189,7 +166,6 @@
 				982C407824B411F400A132E0 /* ContainerEntry.swift */,
 				982C407424B411F400A132E0 /* ContainerEntryInfo.swift */,
 				982C407724B411F400A132E0 /* ContainerEntryType.swift */,
-				982C407524B411F400A132E0 /* DosAttributes.swift */,
 				982C407624B411F400A132E0 /* Permissions.swift */,
 			);
 			path = Container;
@@ -198,12 +174,9 @@
 		982C409024B4123D00A132E0 /* BitByteData */ = {
 			isa = PBXGroup;
 			children = (
-				982C409B24B4126900A132E0 /* BitReader.swift */,
-				982C409224B4126900A132E0 /* BitWriter.swift */,
 				982C409924B4126900A132E0 /* ByteReader.swift */,
 				982C409624B4126900A132E0 /* Data+Extensions.swift */,
 				982C409424B4126900A132E0 /* LittleEndianByteReader.swift */,
-				982C409824B4126900A132E0 /* SignedNumberRepresentation.swift */,
 			);
 			path = BitByteData;
 			sourceTree = "<group>";
@@ -319,13 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				982C409D24B4126900A132E0 /* BitWriter.swift in Sources */,
-				982C408C24B4120C00A132E0 /* DeltaFilter.swift in Sources */,
 				982C407A24B411F400A132E0 /* ContainerEntryInfo.swift in Sources */,
-				982C408A24B4120C00A132E0 /* CommonExtensions.swift in Sources */,
+				982C40AA24B41DB700A132E0 /* CompressionMethod.swift in Sources */,
+				982C408A24B4120C00A132E0 /* Integer+Extensions.swift in Sources */,
 				982C407D24B411F400A132E0 /* ContainerEntryType.swift in Sources */,
 				982C406924B410BA00A132E0 /* ContainerEntryType+Tar.swift in Sources */,
-				982C40A324B4126900A132E0 /* SignedNumberRepresentation.swift in Sources */,
 				982C406A24B410BA00A132E0 /* TarExtendedHeader.swift in Sources */,
 				982C40A124B4126900A132E0 /* Data+Extensions.swift in Sources */,
 				982C407024B410BA00A132E0 /* TarCreateError.swift in Sources */,
@@ -333,21 +304,14 @@
 				982C408B24B4120C00A132E0 /* Archive.swift in Sources */,
 				982C406F24B410BA00A132E0 /* TarEntry.swift in Sources */,
 				982C407F24B411F400A132E0 /* Container.swift in Sources */,
-				982C408F24B4120C00A132E0 /* FileSystemType.swift in Sources */,
 				982C406B24B410BA00A132E0 /* TarEntryInfo.swift in Sources */,
-				982C408824B4120C00A132E0 /* DecompressionAlgorithm.swift in Sources */,
 				982C409F24B4126900A132E0 /* LittleEndianByteReader.swift in Sources */,
 				982C40A424B4126900A132E0 /* ByteReader.swift in Sources */,
 				982C406824B410BA00A132E0 /* ByteReader+Tar.swift in Sources */,
 				982C406E24B410BA00A132E0 /* TarError.swift in Sources */,
-				982C408924B4120C00A132E0 /* CompressionAlgorithm.swift in Sources */,
 				982C407E24B411F400A132E0 /* ContainerEntry.swift in Sources */,
-				982C408D24B4120C00A132E0 /* CheckSums.swift in Sources */,
-				982C40A624B4126900A132E0 /* BitReader.swift in Sources */,
 				982C406C24B410BA00A132E0 /* TarContainer.swift in Sources */,
-				982C407B24B411F400A132E0 /* DosAttributes.swift in Sources */,
 				982C406D24B410BA00A132E0 /* TarEntryInfoProvider.swift in Sources */,
-				982C408E24B4120C00A132E0 /* CompressionMethod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

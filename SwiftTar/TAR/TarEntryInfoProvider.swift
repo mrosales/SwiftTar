@@ -1,8 +1,3 @@
-// Copyright (c) 2020 Timofey Solomko
-// Licensed under MIT License
-//
-// See LICENSE for license information
-
 import Foundation
 
 // While it is tempting to make Provider conform to `IteratorProtocol` and `Sequence` protocols, it is in fact

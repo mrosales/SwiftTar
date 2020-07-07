@@ -1,8 +1,3 @@
-// Copyright (c) 2020 Timofey Solomko
-// Licensed under MIT License
-//
-// See LICENSE for license information
-
 /**
  Represents an error which happened during the creation of a new TAR container.
 

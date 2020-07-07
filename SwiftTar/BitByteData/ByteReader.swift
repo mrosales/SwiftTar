@@ -1,8 +1,3 @@
-// Copyright (c) 2020 Timofey Solomko
-// Licensed under MIT License
-//
-// See LICENSE for license information
-
 import Foundation
 
 public protocol ByteReader: AnyObject {
@@ -23,18 +18,9 @@ public protocol ByteReader: AnyObject {
 
     func uint64(fromBytes count: Int) -> UInt64
 
-    func uint32(fromBytes count: Int) -> UInt32
-
-    func uint16(fromBytes count: Int) -> UInt16
-
 }
 
 extension ByteReader {
-
-    public init(_ bitReader: BitReader) {
-        self.init(data: bitReader.data)
-        self.offset = bitReader.offset
-    }
 
     public var bytesLeft: Int {
         return { (data: Data, offset: Int) -> Int in

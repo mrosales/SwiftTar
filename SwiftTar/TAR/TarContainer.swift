@@ -1,5 +1,3 @@
-import Foundation
-
 /// Provides functions for work with TAR containers.
 public class TarContainer: Container {
 
