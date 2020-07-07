@@ -1,0 +1,50 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Packages sources into a single file for distribution"
+  
+  lane :distribute do
+    UI.header("Merging source files")
+
+    version = get_version_number
+
+    output = ""
+    output += "//\n"
+    output += "// SwiftTar v#{version}\n"
+    output += "//\n"
+
+    output += "//\n"
+    File.readlines("../LICENSE").each do |line|
+      output += "// " + line
+    end
+    output += "//\n"
+    output += "\n\n"
+    output += "import Foundation\n\n"
+
+    Dir.chdir("../") do
+      Dir.glob("SwiftTar/**/*.swift").each do |f|
+        relpath = Pathname.new(f).relative_path_from(Pathname.new("SwiftTar"))
+        contents = File.read(f)
+        
+        file_header = [
+          "//",
+          "// #{relpath}",
+          "//",
+          ""
+        ].join("\n")
+        
+        output += file_header
+        contents = contents.gsub("import Foundation\n", "")
+        contents = contents.gsub(/open\s+(extension|struct|class|let|var|final|protocol|init|func|enum|static|internal|fileprivate)/, 'internal \1')
+        contents = contents.gsub(/public\s+(extension|struct|class|let|var|final|protocol|init|func|enum|static|internal|fileprivate)/, 'internal \1')
+        output += contents
+        output += "\n"
+      end
+    end
+
+    UI.header("Writing output")
+
+    File.write("../distribute/SwiftTar.swift", output)
+    
+  end
+end
