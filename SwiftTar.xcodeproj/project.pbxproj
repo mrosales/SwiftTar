@@ -10,6 +10,36 @@
 		982C404F24B4105F00A132E0 /* SwiftTar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 982C404524B4105F00A132E0 /* SwiftTar.framework */; };
 		982C405424B4105F00A132E0 /* SwiftTarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C405324B4105F00A132E0 /* SwiftTarTests.swift */; };
 		982C405624B4105F00A132E0 /* SwiftTar.h in Headers */ = {isa = PBXBuildFile; fileRef = 982C404824B4105F00A132E0 /* SwiftTar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		982C406824B410BA00A132E0 /* ByteReader+Tar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C405F24B410BA00A132E0 /* ByteReader+Tar.swift */; };
+		982C406924B410BA00A132E0 /* ContainerEntryType+Tar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C406024B410BA00A132E0 /* ContainerEntryType+Tar.swift */; };
+		982C406A24B410BA00A132E0 /* TarExtendedHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C406124B410BA00A132E0 /* TarExtendedHeader.swift */; };
+		982C406B24B410BA00A132E0 /* TarEntryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C406224B410BA00A132E0 /* TarEntryInfo.swift */; };
+		982C406C24B410BA00A132E0 /* TarContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C406324B410BA00A132E0 /* TarContainer.swift */; };
+		982C406D24B410BA00A132E0 /* TarEntryInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C406424B410BA00A132E0 /* TarEntryInfoProvider.swift */; };
+		982C406E24B410BA00A132E0 /* TarError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C406524B410BA00A132E0 /* TarError.swift */; };
+		982C406F24B410BA00A132E0 /* TarEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C406624B410BA00A132E0 /* TarEntry.swift */; };
+		982C407024B410BA00A132E0 /* TarCreateError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C406724B410BA00A132E0 /* TarCreateError.swift */; };
+		982C407A24B411F400A132E0 /* ContainerEntryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C407424B411F400A132E0 /* ContainerEntryInfo.swift */; };
+		982C407B24B411F400A132E0 /* DosAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C407524B411F400A132E0 /* DosAttributes.swift */; };
+		982C407C24B411F400A132E0 /* Permissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C407624B411F400A132E0 /* Permissions.swift */; };
+		982C407D24B411F400A132E0 /* ContainerEntryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C407724B411F400A132E0 /* ContainerEntryType.swift */; };
+		982C407E24B411F400A132E0 /* ContainerEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C407824B411F400A132E0 /* ContainerEntry.swift */; };
+		982C407F24B411F400A132E0 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C407924B411F400A132E0 /* Container.swift */; };
+		982C408824B4120C00A132E0 /* DecompressionAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C408024B4120C00A132E0 /* DecompressionAlgorithm.swift */; };
+		982C408924B4120C00A132E0 /* CompressionAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C408124B4120C00A132E0 /* CompressionAlgorithm.swift */; };
+		982C408A24B4120C00A132E0 /* CommonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C408224B4120C00A132E0 /* CommonExtensions.swift */; };
+		982C408B24B4120C00A132E0 /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C408324B4120C00A132E0 /* Archive.swift */; };
+		982C408C24B4120C00A132E0 /* DeltaFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C408424B4120C00A132E0 /* DeltaFilter.swift */; };
+		982C408D24B4120C00A132E0 /* CheckSums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C408524B4120C00A132E0 /* CheckSums.swift */; };
+		982C408E24B4120C00A132E0 /* CompressionMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C408624B4120C00A132E0 /* CompressionMethod.swift */; };
+		982C408F24B4120C00A132E0 /* FileSystemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C408724B4120C00A132E0 /* FileSystemType.swift */; };
+		982C409D24B4126900A132E0 /* BitWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C409224B4126900A132E0 /* BitWriter.swift */; };
+		982C409F24B4126900A132E0 /* LittleEndianByteReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C409424B4126900A132E0 /* LittleEndianByteReader.swift */; };
+		982C40A124B4126900A132E0 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C409624B4126900A132E0 /* Data+Extensions.swift */; };
+		982C40A324B4126900A132E0 /* SignedNumberRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C409824B4126900A132E0 /* SignedNumberRepresentation.swift */; };
+		982C40A424B4126900A132E0 /* ByteReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C409924B4126900A132E0 /* ByteReader.swift */; };
+		982C40A624B4126900A132E0 /* BitReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C409B24B4126900A132E0 /* BitReader.swift */; };
+		982C40A824B414DD00A132E0 /* file_directory_symlink.tar in Resources */ = {isa = PBXBuildFile; fileRef = 982C40A724B414DD00A132E0 /* file_directory_symlink.tar */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +59,36 @@
 		982C404E24B4105F00A132E0 /* SwiftTarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		982C405324B4105F00A132E0 /* SwiftTarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTarTests.swift; sourceTree = "<group>"; };
 		982C405524B4105F00A132E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		982C405F24B410BA00A132E0 /* ByteReader+Tar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ByteReader+Tar.swift"; sourceTree = "<group>"; };
+		982C406024B410BA00A132E0 /* ContainerEntryType+Tar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ContainerEntryType+Tar.swift"; sourceTree = "<group>"; };
+		982C406124B410BA00A132E0 /* TarExtendedHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TarExtendedHeader.swift; sourceTree = "<group>"; };
+		982C406224B410BA00A132E0 /* TarEntryInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TarEntryInfo.swift; sourceTree = "<group>"; };
+		982C406324B410BA00A132E0 /* TarContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TarContainer.swift; sourceTree = "<group>"; };
+		982C406424B410BA00A132E0 /* TarEntryInfoProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TarEntryInfoProvider.swift; sourceTree = "<group>"; };
+		982C406524B410BA00A132E0 /* TarError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TarError.swift; sourceTree = "<group>"; };
+		982C406624B410BA00A132E0 /* TarEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TarEntry.swift; sourceTree = "<group>"; };
+		982C406724B410BA00A132E0 /* TarCreateError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TarCreateError.swift; sourceTree = "<group>"; };
+		982C407424B411F400A132E0 /* ContainerEntryInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerEntryInfo.swift; sourceTree = "<group>"; };
+		982C407524B411F400A132E0 /* DosAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DosAttributes.swift; sourceTree = "<group>"; };
+		982C407624B411F400A132E0 /* Permissions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Permissions.swift; sourceTree = "<group>"; };
+		982C407724B411F400A132E0 /* ContainerEntryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerEntryType.swift; sourceTree = "<group>"; };
+		982C407824B411F400A132E0 /* ContainerEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerEntry.swift; sourceTree = "<group>"; };
+		982C407924B411F400A132E0 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		982C408024B4120C00A132E0 /* DecompressionAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecompressionAlgorithm.swift; sourceTree = "<group>"; };
+		982C408124B4120C00A132E0 /* CompressionAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompressionAlgorithm.swift; sourceTree = "<group>"; };
+		982C408224B4120C00A132E0 /* CommonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonExtensions.swift; sourceTree = "<group>"; };
+		982C408324B4120C00A132E0 /* Archive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Archive.swift; sourceTree = "<group>"; };
+		982C408424B4120C00A132E0 /* DeltaFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeltaFilter.swift; sourceTree = "<group>"; };
+		982C408524B4120C00A132E0 /* CheckSums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckSums.swift; sourceTree = "<group>"; };
+		982C408624B4120C00A132E0 /* CompressionMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompressionMethod.swift; sourceTree = "<group>"; };
+		982C408724B4120C00A132E0 /* FileSystemType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemType.swift; sourceTree = "<group>"; };
+		982C409224B4126900A132E0 /* BitWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitWriter.swift; sourceTree = "<group>"; };
+		982C409424B4126900A132E0 /* LittleEndianByteReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleEndianByteReader.swift; sourceTree = "<group>"; };
+		982C409624B4126900A132E0 /* Data+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
+		982C409824B4126900A132E0 /* SignedNumberRepresentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignedNumberRepresentation.swift; sourceTree = "<group>"; };
+		982C409924B4126900A132E0 /* ByteReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ByteReader.swift; sourceTree = "<group>"; };
+		982C409B24B4126900A132E0 /* BitReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitReader.swift; sourceTree = "<group>"; };
+		982C40A724B414DD00A132E0 /* file_directory_symlink.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = file_directory_symlink.tar; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +131,9 @@
 		982C404724B4105F00A132E0 /* SwiftTar */ = {
 			isa = PBXGroup;
 			children = (
+				982C409024B4123D00A132E0 /* BitByteData */,
+				982C407124B411CE00A132E0 /* Common */,
+				982C407224B411D400A132E0 /* TAR */,
 				982C404824B4105F00A132E0 /* SwiftTar.h */,
 				982C404924B4105F00A132E0 /* Info.plist */,
 			);
@@ -80,10 +143,69 @@
 		982C405224B4105F00A132E0 /* SwiftTarTests */ = {
 			isa = PBXGroup;
 			children = (
+				982C40A724B414DD00A132E0 /* file_directory_symlink.tar */,
 				982C405324B4105F00A132E0 /* SwiftTarTests.swift */,
 				982C405524B4105F00A132E0 /* Info.plist */,
 			);
 			path = SwiftTarTests;
+			sourceTree = "<group>";
+		};
+		982C407124B411CE00A132E0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				982C408324B4120C00A132E0 /* Archive.swift */,
+				982C408524B4120C00A132E0 /* CheckSums.swift */,
+				982C408124B4120C00A132E0 /* CompressionAlgorithm.swift */,
+				982C408624B4120C00A132E0 /* CompressionMethod.swift */,
+				982C408024B4120C00A132E0 /* DecompressionAlgorithm.swift */,
+				982C408424B4120C00A132E0 /* DeltaFilter.swift */,
+				982C408224B4120C00A132E0 /* CommonExtensions.swift */,
+				982C408724B4120C00A132E0 /* FileSystemType.swift */,
+				982C407324B411E900A132E0 /* Container */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		982C407224B411D400A132E0 /* TAR */ = {
+			isa = PBXGroup;
+			children = (
+				982C405F24B410BA00A132E0 /* ByteReader+Tar.swift */,
+				982C406024B410BA00A132E0 /* ContainerEntryType+Tar.swift */,
+				982C406324B410BA00A132E0 /* TarContainer.swift */,
+				982C406724B410BA00A132E0 /* TarCreateError.swift */,
+				982C406624B410BA00A132E0 /* TarEntry.swift */,
+				982C406224B410BA00A132E0 /* TarEntryInfo.swift */,
+				982C406424B410BA00A132E0 /* TarEntryInfoProvider.swift */,
+				982C406524B410BA00A132E0 /* TarError.swift */,
+				982C406124B410BA00A132E0 /* TarExtendedHeader.swift */,
+			);
+			path = TAR;
+			sourceTree = "<group>";
+		};
+		982C407324B411E900A132E0 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				982C407924B411F400A132E0 /* Container.swift */,
+				982C407824B411F400A132E0 /* ContainerEntry.swift */,
+				982C407424B411F400A132E0 /* ContainerEntryInfo.swift */,
+				982C407724B411F400A132E0 /* ContainerEntryType.swift */,
+				982C407524B411F400A132E0 /* DosAttributes.swift */,
+				982C407624B411F400A132E0 /* Permissions.swift */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		982C409024B4123D00A132E0 /* BitByteData */ = {
+			isa = PBXGroup;
+			children = (
+				982C409B24B4126900A132E0 /* BitReader.swift */,
+				982C409224B4126900A132E0 /* BitWriter.swift */,
+				982C409924B4126900A132E0 /* ByteReader.swift */,
+				982C409624B4126900A132E0 /* Data+Extensions.swift */,
+				982C409424B4126900A132E0 /* LittleEndianByteReader.swift */,
+				982C409824B4126900A132E0 /* SignedNumberRepresentation.swift */,
+			);
+			path = BitByteData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +270,7 @@
 				TargetAttributes = {
 					982C404424B4105F00A132E0 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 					982C404D24B4105F00A132E0 = {
 						CreatedOnToolsVersion = 11.5;
@@ -185,6 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				982C40A824B414DD00A132E0 /* file_directory_symlink.tar in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +319,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				982C409D24B4126900A132E0 /* BitWriter.swift in Sources */,
+				982C408C24B4120C00A132E0 /* DeltaFilter.swift in Sources */,
+				982C407A24B411F400A132E0 /* ContainerEntryInfo.swift in Sources */,
+				982C408A24B4120C00A132E0 /* CommonExtensions.swift in Sources */,
+				982C407D24B411F400A132E0 /* ContainerEntryType.swift in Sources */,
+				982C406924B410BA00A132E0 /* ContainerEntryType+Tar.swift in Sources */,
+				982C40A324B4126900A132E0 /* SignedNumberRepresentation.swift in Sources */,
+				982C406A24B410BA00A132E0 /* TarExtendedHeader.swift in Sources */,
+				982C40A124B4126900A132E0 /* Data+Extensions.swift in Sources */,
+				982C407024B410BA00A132E0 /* TarCreateError.swift in Sources */,
+				982C407C24B411F400A132E0 /* Permissions.swift in Sources */,
+				982C408B24B4120C00A132E0 /* Archive.swift in Sources */,
+				982C406F24B410BA00A132E0 /* TarEntry.swift in Sources */,
+				982C407F24B411F400A132E0 /* Container.swift in Sources */,
+				982C408F24B4120C00A132E0 /* FileSystemType.swift in Sources */,
+				982C406B24B410BA00A132E0 /* TarEntryInfo.swift in Sources */,
+				982C408824B4120C00A132E0 /* DecompressionAlgorithm.swift in Sources */,
+				982C409F24B4126900A132E0 /* LittleEndianByteReader.swift in Sources */,
+				982C40A424B4126900A132E0 /* ByteReader.swift in Sources */,
+				982C406824B410BA00A132E0 /* ByteReader+Tar.swift in Sources */,
+				982C406E24B410BA00A132E0 /* TarError.swift in Sources */,
+				982C408924B4120C00A132E0 /* CompressionAlgorithm.swift in Sources */,
+				982C407E24B411F400A132E0 /* ContainerEntry.swift in Sources */,
+				982C408D24B4120C00A132E0 /* CheckSums.swift in Sources */,
+				982C40A624B4126900A132E0 /* BitReader.swift in Sources */,
+				982C406C24B410BA00A132E0 /* TarContainer.swift in Sources */,
+				982C407B24B411F400A132E0 /* DosAttributes.swift in Sources */,
+				982C406D24B410BA00A132E0 /* TarEntryInfoProvider.swift in Sources */,
+				982C408E24B4120C00A132E0 /* CompressionMethod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +493,7 @@
 		982C405A24B4105F00A132E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = ZFT3A4WCFY;
@@ -356,6 +510,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mrosales.SwiftTar;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +519,7 @@
 		982C405B24B4105F00A132E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = ZFT3A4WCFY;
@@ -388,6 +544,7 @@
 		982C405D24B4105F00A132E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZFT3A4WCFY;
 				INFOPLIST_FILE = SwiftTarTests/Info.plist;
@@ -406,6 +563,7 @@
 		982C405E24B4105F00A132E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZFT3A4WCFY;
 				INFOPLIST_FILE = SwiftTarTests/Info.plist;
