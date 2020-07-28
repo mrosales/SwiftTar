@@ -15,7 +15,7 @@ platform :ios do
 
     output += "//\n"
     File.readlines("../LICENSE").each do |line|
-      output += "// " + line
+      output += ("// " + line).chomp.chomp(" ") + "\n"
     end
     output += "//\n"
     output += "\n\n"
@@ -35,9 +35,9 @@ platform :ios do
         
         output += file_header
         contents = contents.gsub("import Foundation\n", "")
-        contents = contents.gsub(/(open|public)\s+(extension|struct|class)/, '\2')
-        contents = contents.gsub(/(open|public)\s+(let|var|final|protocol|init|func|enum|static|internal|fileprivate|typealias)/, 'internal \2')
-        contents = contents.gsub(/internal internal\(set\)/, 'internal')
+        contents = contents.gsub(/(open|public)\s+(extension|struct|class)/, 'internal \2')
+        contents = contents.gsub(/(open|public|internal)\s+(let|var|final|protocol|init|func|enum|static|internal|fileprivate|typealias)/, '\2')
+        contents = contents.gsub(/internal\(set\)\s+(var)/, '\1')
         output += contents
         output += "\n"
       end
