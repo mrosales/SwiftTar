@@ -35,8 +35,9 @@ platform :ios do
         
         output += file_header
         contents = contents.gsub("import Foundation\n", "")
-        contents = contents.gsub(/open\s+(extension|struct|class|let|var|final|protocol|init|func|enum|static|internal|fileprivate)/, 'internal \1')
-        contents = contents.gsub(/public\s+(extension|struct|class|let|var|final|protocol|init|func|enum|static|internal|fileprivate)/, 'internal \1')
+        contents = contents.gsub(/(open|public)\s+(extension|struct|class)/, '\2')
+        contents = contents.gsub(/(open|public)\s+(let|var|final|protocol|init|func|enum|static|internal|fileprivate|typealias)/, 'internal \2')
+        contents = contents.gsub(/internal internal\(set\)/, 'internal')
         output += contents
         output += "\n"
       end
@@ -44,7 +45,7 @@ platform :ios do
 
     UI.header("Writing output")
 
-    File.write("../distribute/SwiftTar.swift", output)
+    File.write("../distribute/SwiftTar+Internal.swift", output)
     
   end
 end
